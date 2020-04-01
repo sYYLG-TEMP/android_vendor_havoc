@@ -123,15 +123,10 @@ PRODUCT_PACKAGES += \
     CustomDoze \
     GalleryGoPrebuilt \
     Longshot \
-    NexusLauncherRelease \
     OmniStyle \
     PixelThemesStub2019 \
     SoundPickerPrebuilt \
     TouchGestures
-
-# Overlays
-PRODUCT_PACKAGES += \
-    NexusLauncherReleaseOverlay
 
 # Accents
 PRODUCT_PACKAGES += \
@@ -227,8 +222,7 @@ endif
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI \
-    NexusLauncherRelease
+    SystemUI
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/havoc/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/havoc/overlay/common
